@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/index.css')}}">
+    <script>
+        function navigate() {
+            let movie = document.getElementById("input").value;
+            window.location.href = movie;
+        }
+    </script>
+</head>
+
+<body>
+    <span>
+        <input placeholder="Enter a movie title" id="input" />
+        <button type="submit" onclick="navigate()">
+            Search for a movie
+        </button>
+    </span>
+</body>
+
+</html>

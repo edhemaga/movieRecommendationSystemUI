@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+.movie {
+  padding: 5px;
+}
+
+.movieWrapper {
+  padding-left: 25px;
+}

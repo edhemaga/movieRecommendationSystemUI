@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+span {
+  margin: auto;
+}
+
+button {
+  margin: 10px;
+  border: 0;
+  padding: 15px;
+  background-color: rgb(3, 129, 119);
+  border-radius: 3px;
+  color: white;
+}
+
+input {
+  margin: 10px;
+  padding: 13px;
+  border: 0;
+  border-bottom: 1px solid rgb(3, 129, 119);
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #b31291;
+}
